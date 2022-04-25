@@ -3,7 +3,8 @@
 
 До сдачи курсовой остался чуть больше месяца, а я только приступил к выполнению...
 
-![bG3Nf6B](https://user-images.githubusercontent.com/70810051/165185009-1c242dc2-69f1-45dc-8b5a-9eb36d4c42cd.gif)
+
+![IMG_0882](https://user-images.githubusercontent.com/70810051/165185100-254e1e7c-0618-46cc-8379-b6ba30342f67.jpg)
 
 
 Что-ж нас ждет тернистый путь...
