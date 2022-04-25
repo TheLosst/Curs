@@ -1,8 +1,10 @@
 # Curs
 Курсовая работа 2 курс
+
 До сдачи курсовой остался чуть больше месяца, а я только приступил к выполнению...
 
-![3 (3)](https://user-images.githubusercontent.com/70810051/165184656-6433dde9-0bf5-499c-ad2d-829b25d3a50e.jpg)
+![bG3Nf6B](https://user-images.githubusercontent.com/70810051/165185009-1c242dc2-69f1-45dc-8b5a-9eb36d4c42cd.gif)
+
 
 Что-ж нас ждет тернистый путь...
 
