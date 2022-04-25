@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Kyrs</string>
+    <string name="back_button">Назад</string>
+    <string name="katalog">Каталог</string>
+    <string name="shopping_card">Корзина</string>
+    <string name="favorites">Избранное</string>
+    <string name="profile">Профиль</string>
+    <string name="Login_1">Вход</string>
+    <string name="login_field">Введите логин</string>
+    <string name="password_field">Введите пароль</string>
+    <string name="phone_number_field">Введите номер телефона</string>
+    <string name="email_field">Введите адрес электронной почты</string>
+    <string name="login_button">Войти</string>
+    <string name="register_forward">Создать аккаунт</string>
+    <string name="register_1">Регистрация</string>
+    <string name="register_button">Зарегистрироваться</string>
+    <string name="back_buton">Back_Buton</string>
+    <string name="search_button">search_button</string>
+</resources>

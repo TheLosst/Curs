@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="login_field">
+        <item name="android:textSize">10pt</item>
+        <item name="android:textColor">#FFFFFF</item>
+    </style>
+
+    <style name="Button.White" parent="ThemeOverlay.AppCompat">
+        <item name="colorAccent">@color/Blue</item>
+    </style>
+
+</resources>

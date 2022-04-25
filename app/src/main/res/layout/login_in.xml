@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_constraintLeft_toLeftOf="parent"
+    app:layout_constraintRight_toRightOf="parent"
+    app:layout_constraintTop_toTopOf="parent"
+    android:id="@+id/framelayout_1"
+    android:theme="@style/Theme.login"
+    android:layout_gravity="top"
+    android:background="#ffff"
+    >
+
+    <View
+        android:id="@+id/rectangle"
+        android:layout_width="wrap_content"
+        android:layout_height="140pt"
+        android:layout_alignParentTop="true"
+        android:layout_gravity="center"
+        android:background="@drawable/zakruglim" />
+
+    <TextView
+        style="@style/login_field"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/rectangle"
+        android:layout_marginBottom="46pt"
+        android:gravity="center"
+        android:textSize="15pt"
+        android:text="@string/Login_1" />
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/rectangle"
+        >
+
+        <View
+            android:id="@+id/main_frame"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#FFFF" />
+
+        <EditText
+            android:id="@+id/login_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/main_frame"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="10pt"
+            android:autofillHints="false"
+            android:background="@drawable/input_text_style"
+            android:drawableLeft="@drawable/login_ico"
+            android:gravity="center"
+            android:hint="@string/login_field"
+            android:textSize="8pt" />
+
+        <EditText
+            android:id="@+id/password_field"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/main_frame"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="35pt"
+            android:autofillHints="false"
+            android:background="@drawable/input_text_style"
+            android:drawableLeft="@drawable/pass_ico"
+            android:gravity="center"
+            android:hint="@string/password_field"
+            android:inputType="textPassword"
+            android:textSize="8pt" />
+
+        <Button
+            android:id="@+id/login_button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/main_frame"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="80pt"
+            android:background="@drawable/buttons"
+            android:gravity="center"
+            android:text="@string/login_button"
+            android:textStyle="normal" />
+
+
+        <Button
+            android:id="@+id/register_forward"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@id/main_frame"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="110pt"
+            android:background="@drawable/buttons"
+            android:gravity="center"
+            android:text="@string/register_forward" />
+
+    </RelativeLayout>
+</RelativeLayout>
+
+
+
