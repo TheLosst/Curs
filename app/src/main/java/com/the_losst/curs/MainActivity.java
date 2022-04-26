@@ -25,9 +25,9 @@ public class MainActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        toastMismatch = Toast.makeText(this, "Пароли не совпадают", Toast.LENGTH_LONG);
-        toastErrorInFields = Toast.makeText(this, "Проверьте введенные данные", Toast.LENGTH_LONG);
-        loginAlreadyUsed = Toast.makeText(this, "Логин занят", Toast.LENGTH_LONG);
+        toastMismatch = Toast.makeText(this, "Пароли не совпадают!", Toast.LENGTH_LONG);
+        toastErrorInFields = Toast.makeText(this, "Проверьте введенные данные!", Toast.LENGTH_LONG);
+        loginAlreadyUsed = Toast.makeText(this, "Логин занят!", Toast.LENGTH_LONG);
         youDied = Toast.makeText(this, "Толик ***лик первый день, ***!", Toast.LENGTH_LONG);
         sucReg = Toast.makeText(this, "Регистрация успешна, пожалуйста войдите в свой аккаунт", Toast.LENGTH_LONG);
         toastMismatch.setGravity(Gravity.TOP, 0, 160);
